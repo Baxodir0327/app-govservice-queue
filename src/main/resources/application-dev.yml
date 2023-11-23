@@ -1,0 +1,22 @@
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
+server:
+  port: 80
+spring:
+  datasource:
+    password: root123
+    url: jdbc:postgresql://localhost:5432/queue_gov
+    username: postgres
+
+app:
+  page: 0
+  size: 10
+  run:
+    times: second
+  jwt:
+    key: :2p)8]="C79d"H{cf4-1KEj4|G
+    expiration: 86400000
